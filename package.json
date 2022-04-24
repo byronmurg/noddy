@@ -1,0 +1,20 @@
+{
+  "name": "noddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development src/main.js --output dist/main.bundle.js --watch",
+    "build": "webpack --mode production src/main.js --output dist/main.bundle.js"
+  },
+  "keywords": [],
+  "author": "Byron Murgatroyd <byron@omanom.com>",
+  "license": "UNLICENCED",
+  "private": true,
+  "dependencies": {
+    "debug": "^4.3.4",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0"
+  }
+}
